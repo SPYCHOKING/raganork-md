@@ -345,7 +345,7 @@ Module(
       botImageLink = path.join(__dirname, "utils", "images", "default.png");
     }
 
-    const menu = `╭═══〘 \`${botName}\` 〙═══⊷❍
+    const menu = `╭═══〘 "JoyBoySer" 〙═══⊷❍
 ┃${star}╭──────────────
 ┃${star}│
 ┃${star}│ _*\`Owner\`*_ : ${botOwner}
@@ -359,7 +359,7 @@ Module(
 ┃${star}│
 ┃${star}│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
 ┃${star}│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
-┃${star}│   ${botName}
+┃${star}│   "JoyBoySer"
 ┃${star}│
 ┃${star}╰───────────────
 ╰═════════════════⊷
@@ -559,3 +559,4 @@ Module(
     await parseAlive(message, aliveMessage);
   }
 );
+
